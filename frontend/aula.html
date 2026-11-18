@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microaulas | MoveLearn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config.js" defer></script>
+    <script src="js/aula.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1>MoveLearn</h1>
+            <nav aria-label="Menu principal"><a href="index.html">Início</a><a href="trajetos.html">Trajetos</a><a
+                    href="cursos.html">Cursos</a><a href="aula.html" aria-current="page">Aulas</a></nav>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Microaulas</h2>
+        <p>Escolha um curso e uma aula para estudar e responder às questões.</p>
+        <div class="curso"><label for="curso">Curso</label><select id="curso">
+                <option value="">Selecione</option>
+            </select><label for="aula" class="espaco">Aula</label><select id="aula">
+                <option value="">Selecione um curso primeiro</option>
+            </select>
+            <p id="mensagem" role="status" aria-live="polite"></p>
+        </div>
+        <article class="curso" id="conteudo-aula" hidden>
+            <h3 id="titulo-aula"></h3>
+            <p id="duracao-aula" class="nivel"></p>
+            <div id="texto-aula" class="texto-aula"></div>
+            <h3>Questões</h3>
+            <div id="lista-questoes"></div>
+            <div class="acoes"><button type="button" id="concluir">Concluir aula</button></div>
+            <p id="resultado" role="status" aria-live="polite"></p>
+        </article>
+    </main>
+    <footer class="container rodape">
+        <p>MoveLearn — Projeto Global Solution FIAP</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início | MoveLearn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config.js" defer></script>
+    <script src="js/dashboard.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1>MoveLearn</h1>
+            <nav aria-label="Menu principal"><a href="index.html" aria-current="page">Início</a><a
+                    href="trajetos.html">Trajetos</a><a href="cursos.html">Cursos</a><a href="aula.html">Aulas</a></nav>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Início</h2>
+        <p>Aproveite parte do seu trajeto para aprender algo novo.</p>
+        <p class="nota">Versão de demonstração — usuário ID <strong id="usuario-atual"></strong>.</p>
+        <section class="resumo" aria-label="Resumo">
+            <article class="curso">
+                <h3>Tempo semanal disponível</h3>
+                <p id="tempo-semanal">Carregando...</p>
+            </article>
+            <article class="curso">
+                <h3>Meus cursos</h3>
+                <p id="qtd-matriculas">Carregando...</p>
+            </article>
+        </section>
+        <section>
+            <h3>Minhas matrículas</h3>
+            <p id="mensagem" role="status" aria-live="polite"></p>
+            <div id="lista-matriculas" class="lista-cursos"></div>
+        </section>
+        <section>
+            <h3>Próximo passo</h3>
+            <p>Cadastre um trajeto, escolha um curso e comece as microaulas.</p>
+            <p><a href="trajetos.html">Gerenciar trajetos</a> · <a href="cursos.html">Ver cursos</a></p>
+        </section>
+    </main>
+    <footer class="container rodape">
+        <p>MoveLearn — Projeto Global Solution FIAP</p>
+    </footer>
+</body>
+
+</html>
