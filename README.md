@@ -1,5 +1,9 @@
 # MoveLearn — Aprendizagem em Movimento
 
+
+<img width="350" height="126" alt="image" src="https://github.com/user-attachments/assets/d2850cec-993d-4c53-9cc5-e1f393e0664d" />
+
+
 O **MoveLearn** é uma plataforma web de microaprendizagem desenvolvida para transformar parte do tempo gasto em deslocamentos cotidianos em oportunidades de aprendizado.
 
 O projeto foi desenvolvido para a **Global Solution 2026/2 da FIAP**, com o tema *CitizenTech — Tecnologia com o cidadão no centro da inovação*.
